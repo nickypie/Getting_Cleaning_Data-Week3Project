@@ -1,96 +1,96 @@
 # Code Book - The Data Dictionary for run_analysis.R
 
-subject - an integer from 1-30 representing the subject (or volunteer) for the specific set of measurements
-activity - one of six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* subject - an integer from 1-30 representing the subject (or volunteer) for the specific set of measurements
+* activity - one of six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-The following variables were the smartphone measurements averaged over each subject and activity. I could try to write my own descriptions for each variable, but I find the discussion from the features_info.txt was better than I could come up with, so I've repeated that following the variable list
+The following variables were the smartphone measurements averaged over each subject and activity. I could try to write my own descriptions for each variable, but I find the discussion from the features_info.txt was better than I could come up with, so I've repeated the contents of features_info.txt following the variable list. Note that for these variable names, we have removed characters which are incompatable with R variable names, including parenthesis and hyphens
 
-tBodyAccmeanX 
-tBodyAccmeanY 
-tBodyAccmeanZ 
-tGravityAccmeanX 
-tGravityAccmeanY 
-tGravityAccmeanZ 
-tBodyAccJerkmeanX 
-tBodyAccJerkmeanY 
-tBodyAccJerkmeanZ 
-tBodyGyromeanX
-tBodyGyromeanY 
-tBodyGyromeanZ
-tBodyGyroJerkmeanX
-tBodyGyroJerkmeanY
-tBodyGyroJerkmeanZ
-tBodyAccMagmean
-tGravityAccMagmean
-tBodyAccJerkMagmean
-tBodyGyroMagmean
-tBodyGyroJerkMagmean
-fBodyAccmeanX
-fBodyAccmeanY
-fBodyAccmeanZ
-fBodyAccmeanFreqX
-fBodyAccmeanFreqY
-fBodyAccmeanFreqZ
-fBodyAccJerkmeanX
-fBodyAccJerkmeanY
-fBodyAccJerkmeanZ
-fBodyAccJerkmeanFreqX
-fBodyAccJerkmeanFreqY
-fBodyAccJerkmeanFreqZ
-fBodyGyromeanX
-fBodyGyromeanY
-fBodyGyromeanZ
-fBodyGyromeanFreqX
-fBodyGyromeanFreqY
-fBodyGyromeanFreqZ
-fBodyAccMagmean
-fBodyAccMagmeanFreq
-fBodyBodyAccJerkMagmean
-fBodyBodyAccJerkMagmeanFreq
-fBodyBodyGyroMagmean
-fBodyBodyGyroMagmeanFreq
-fBodyBodyGyroJerkMagmean
-fBodyBodyGyroJerkMagmeanFreq
-angletBodyAccMeangravity
-angletBodyAccJerkMeangravityMean
-angletBodyGyroMeangravityMean
-angletBodyGyroJerkMeangravityMean
-angleXgravityMean
-angleYgravityMean
-angleZgravityMean
-tBodyAccstdX
-tBodyAccstdY
-tBodyAccstdZ
-tGravityAccstdX
-tGravityAccstdY
-tGravityAccstdZ
-tBodyAccJerkstdX
-tBodyAccJerkstdY
-tBodyAccJerkstdZ 
-tBodyGyrostdX 
-tBodyGyrostdY 
-tBodyGyrostdZ 
-tBodyGyroJerkstdX
-tBodyGyroJerkstdY
-tBodyGyroJerkstdZ
-tBodyAccMagstd
-tGravityAccMagstd 
-tBodyAccJerkMagstd 
-tBodyGyroMagstd 
-tBodyGyroJerkMagstd
-fBodyAccstdX
-fBodyAccstdY
-fBodyAccstdZ
-fBodyAccJerkstdX
-fBodyAccJerkstdY
-fBodyAccJerkstdZ
-fBodyGyrostdX
-fBodyGyrostdY
-fBodyGyrostdZ
-fBodyAccMagstd
-fBodyBodyAccJerkMagstd
-fBodyBodyGyroMagstd
-fBodyBodyGyroJerkMagstd
+* tBodyAccmeanX 
+* tBodyAccmeanY 
+* tBodyAccmeanZ 
+* tGravityAccmeanX 
+* tGravityAccmeanY 
+* tGravityAccmeanZ 
+* tBodyAccJerkmeanX 
+* tBodyAccJerkmeanY 
+* tBodyAccJerkmeanZ 
+* tBodyGyromeanX
+* tBodyGyromeanY 
+* tBodyGyromeanZ
+* tBodyGyroJerkmeanX
+* tBodyGyroJerkmeanY
+* tBodyGyroJerkmeanZ
+* tBodyAccMagmean
+* tGravityAccMagmean
+* tBodyAccJerkMagmean
+* tBodyGyroMagmean
+* tBodyGyroJerkMagmean
+* fBodyAccmeanX
+* fBodyAccmeanY
+* fBodyAccmeanZ
+* fBodyAccmeanFreqX
+* fBodyAccmeanFreqY
+* fBodyAccmeanFreqZ
+* fBodyAccJerkmeanX
+* fBodyAccJerkmeanY
+* fBodyAccJerkmeanZ
+* fBodyAccJerkmeanFreqX
+* fBodyAccJerkmeanFreqY
+* fBodyAccJerkmeanFreqZ
+* fBodyGyromeanX
+* fBodyGyromeanY
+* fBodyGyromeanZ
+* fBodyGyromeanFreqX
+* fBodyGyromeanFreqY
+* fBodyGyromeanFreqZ
+* fBodyAccMagmean
+* fBodyAccMagmeanFreq
+* fBodyBodyAccJerkMagmean
+* fBodyBodyAccJerkMagmeanFreq
+* fBodyBodyGyroMagmean
+* fBodyBodyGyroMagmeanFreq
+* fBodyBodyGyroJerkMagmean
+* fBodyBodyGyroJerkMagmeanFreq
+* angletBodyAccMeangravity
+* angletBodyAccJerkMeangravityMean
+* angletBodyGyroMeangravityMean
+* angletBodyGyroJerkMeangravityMean
+* angleXgravityMean
+* angleYgravityMean
+* angleZgravityMean
+* tBodyAccstdX
+* tBodyAccstdY
+* tBodyAccstdZ
+* tGravityAccstdX
+* tGravityAccstdY
+* tGravityAccstdZ
+* tBodyAccJerkstdX
+* tBodyAccJerkstdY
+* tBodyAccJerkstdZ 
+* tBodyGyrostdX 
+* tBodyGyrostdY 
+* tBodyGyrostdZ 
+* tBodyGyroJerkstdX
+* tBodyGyroJerkstdY
+* tBodyGyroJerkstdZ
+* tBodyAccMagstd
+* tGravityAccMagstd 
+* tBodyAccJerkMagstd 
+* tBodyGyroMagstd 
+* tBodyGyroJerkMagstd
+* fBodyAccstdX
+* fBodyAccstdY
+* fBodyAccstdZ
+* fBodyAccJerkstdX
+* fBodyAccJerkstdY
+* fBodyAccJerkstdZ
+* fBodyGyrostdX
+* fBodyGyrostdY
+* fBodyGyrostdZ
+* fBodyAccMagstd
+* fBodyBodyAccJerkMagstd
+* fBodyBodyGyroMagstd
+* fBodyBodyGyroJerkMagstd
 
 ## Feature Selection 
 ====================
@@ -104,43 +104,28 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+The set of variables that were estimated from these signals (that are kept in the tidy data set) are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
+* mean(): Mean value
+* std(): Standard deviation
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
